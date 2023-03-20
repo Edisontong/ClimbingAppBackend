@@ -6,8 +6,8 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-User.create!(name: "test", email: "test@test.com", password_digest: "password", image_url: "https://bbts1.azureedge.net/images/p/full/2021/09/34c206ee-2145-4b64-a745-8833c925a476.jpg")
-User.create!(name: "Alex Honnold", email: "nobadconditions@rock.com", password_digest: "password", image_url: "https://s3.amazonaws.com/images.gearjunkie.com/uploads/2022/06/GJ-Alex-Honnold-Podcast-Feature-1200x800.jpg")
+User.create!(name: "test", email: "test@test.com", password: "password", image_url: "https://bbts1.azureedge.net/images/p/full/2021/09/34c206ee-2145-4b64-a745-8833c925a476.jpg")
+User.create!(name: "Alex Honnold", email: "nobadconditions@rock.com", password: "password", image_url: "https://s3.amazonaws.com/images.gearjunkie.com/uploads/2022/06/GJ-Alex-Honnold-Podcast-Feature-1200x800.jpg")
 
 area1 = Area.create!(name: "rock canyon", location: "Provo Utah", route_quantity: 500, image_url: "https://mountainproject.com/assets/photos/climb/106173279_medium_1494085405.jpg?cache=1652796615")
 area2 = Area.create!(name: "little cottenwood", location: "Sandy Utah", route_quantity: 1043, image_url: "https://www.mountainproject.com/img/expand.svg")
