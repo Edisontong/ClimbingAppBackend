@@ -2,16 +2,16 @@
 
 one:
   user_id: 1
-  type: 
-  grate: MyString
+  discipline: MyString
+  grade: MyString
   date: MyString
   attempts: 1
   beta: MyText
 
 two:
   user_id: 1
-  type: 
-  grate: MyString
+  discipline: MyString
+  grade: MyString
   date: MyString
   attempts: 1
   beta: MyText

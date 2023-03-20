@@ -2,7 +2,7 @@
 
 one:
   area_id: 1
-  type: 
+  discipline: MyString
   grade: MyString
   name: MyString
   beta: MyText
@@ -12,7 +12,7 @@ one:
 
 two:
   area_id: 1
-  type: 
+  discipline: MyString
   grade: MyString
   name: MyString
   beta: MyText
