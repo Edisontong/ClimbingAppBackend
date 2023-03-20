@@ -10,9 +10,43 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_03_20_161850) do
+ActiveRecord::Schema[7.0].define(version: 2023_03_20_163618) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "areas", force: :cascade do |t|
+    t.string "name"
+    t.string "location"
+    t.integer "route_quantity"
+    t.string "image_url"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "ascents", force: :cascade do |t|
+    t.integer "user_id"
+    t.string "type"
+    t.string "grate"
+    t.string "date"
+    t.integer "attempts"
+    t.text "beta"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "routes", force: :cascade do |t|
+    t.integer "area_id"
+    t.integer "ascent_id"
+    t.string "type"
+    t.string "grade"
+    t.string "name"
+    t.text "beta"
+    t.string "protection"
+    t.text "location"
+    t.string "image_url"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "name"
