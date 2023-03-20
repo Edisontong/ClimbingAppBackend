@@ -11,4 +11,6 @@ Rails.application.routes.draw do
   post "/ascents" => "ascents#create"
 
   get "/areas" => "areas#index"
+
+  get "/routes" => "routes#index"
 end
