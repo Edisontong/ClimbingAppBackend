@@ -22,8 +22,8 @@ route4 = Route.create!(area_id: 2, discipline: "sport", grade: "5.14a", name: "b
 
 ascent1 = Ascent.create!(user_id: 1, route_id: 1, discipline: "sport", grade: "5.10a", date: "July 1, 2022", attempts: 3, beta: "its a good one! tricky spot near the top")
 
-ascent2 = Ascent.create!(user_id: 1, route_id: 1, discipline: "sport", grade: "5.11c", date: "July 20, 2022", attempts: 14, beta: "really tricky section with the roof. good spot to rest about halfway up")
+ascent2 = Ascent.create!(user_id: 1, route_id: 2, discipline: "sport", grade: "5.11c", date: "July 20, 2022", attempts: 14, beta: "really tricky section with the roof. good spot to rest about halfway up")
 
-ascent3 = Ascent.create!(user_id: 2, route_id: 2, discipline: "sport", grade: "5.12d", date: "Aug 2, 2019", attempts: 1, beta: "good warmup")
+ascent3 = Ascent.create!(user_id: 2, route_id: 3, discipline: "sport", grade: "5.12d", date: "Aug 2, 2019", attempts: 1, beta: "good warmup")
 
-ascent4 = Ascent.create!(user_id: 2, route_id: 3, discipline: "sport", grade: "5.14d", date: "Sep 13, 2019", attempts: 6, beta: "almost died cuz I'm a freesolo crazy person but I'd do it again")
+ascent4 = Ascent.create!(user_id: 2, route_id: 4, discipline: "sport", grade: "5.14d", date: "Sep 13, 2019", attempts: 6, beta: "almost died cuz I'm a freesolo crazy person but I'd do it again")

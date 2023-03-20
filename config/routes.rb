@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   post "/sessions" => "sessions#create"
 
   get "/ascents" => "ascents#index"
+  post "/ascents" => "ascents#create"
 end
