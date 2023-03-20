@@ -9,4 +9,6 @@ Rails.application.routes.draw do
 
   get "/ascents" => "ascents#index"
   post "/ascents" => "ascents#create"
+
+  get "/areas" => "areas#index"
 end
