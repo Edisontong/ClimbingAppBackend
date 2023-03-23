@@ -1,6 +1,6 @@
 class RoutesController < ApplicationController
   def index
-    routes = Route.where(area_id: params[:area_id])
+    routes = Route.all
     render json: routes
   end
 end

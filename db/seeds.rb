@@ -10,7 +10,7 @@ User.create!(name: "test", email: "test@test.com", password: "password", image_u
 User.create!(name: "Alex Honnold", email: "nobadconditions@rock.com", password: "password", image_url: "https://s3.amazonaws.com/images.gearjunkie.com/uploads/2022/06/GJ-Alex-Honnold-Podcast-Feature-1200x800.jpg")
 
 area1 = Area.create!(name: "rock canyon", location: "Provo Utah", route_quantity: 500, image_url: "https://mountainproject.com/assets/photos/climb/106173279_medium_1494085405.jpg?cache=1652796615")
-area2 = Area.create!(name: "little cottenwood", location: "Sandy Utah", route_quantity: 1043, image_url: "https://www.mountainproject.com/img/expand.svg")
+area2 = Area.create!(name: "little cottenwood", location: "Sandy Utah", route_quantity: 1043, image_url: "https://mountainproject.com/assets/photos/climb/108132644_medium_1494264893.jpg?cache=1656518379")
 
 route1 = Route.create!(area_id: 1, discipline: "sport", grade: "5.10a", name: "exposed cleavage", beta: "its a good one! tricky spot near the top", protection: "6 bolts to the anchors", location: area1.location, image_url: "https://mountainproject.com/assets/photos/climb/105967744_medium_1558384778.jpg?cache=1664828808")
 
